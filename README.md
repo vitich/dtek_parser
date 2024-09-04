@@ -19,9 +19,9 @@ docker build -t dtek_parser .
 ```
 docker run --rm -it -v $(pwd)/session:/app/session dtek_parser
 ```
-It will ask your phone number/
-Then enter the code from telegram and your password
-7) Now you can run container on background with -d option) 
+It will ask your telegram account phone number. 
+Then enter the code from telegram and your password.
+7) Next time you can run container in detached mode in the background with -d option. 
 ```
 docker run -d --rm -it -v $(pwd)/session:/app/session dtek_parser
 ```
